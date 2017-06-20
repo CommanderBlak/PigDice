@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/dice-favicon.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Pig Dice</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Let's Play Pig Dice!</h1>
+    </div>
+    <p class="text-center">What is pig dice? Here's a <a href="https://en.wikipedia.org/wiki/Pig_%28dice_game%29" target="_blank">link</a> to read more about this exciting game!</p>
+
+    <div class="row">
+      <div class="col-md-4 well">
+        <h2>PLAYER 1</h2>
+        <!-- <div id = "hold1" class = "hold">0</div> -->
+        <button id="hold-button1" class="btn btn-danger">HOLD</button>
+        <h3>Score:</h3>
+        <div id="score1" class="scorebox">0</div>
+
+      </div>
+      <div class="col-md-4 well">
+        <h2>DIE ROLL</h2>
+        <div id="die" class="dice">0</div>
+        <button id="roll-button" class="btn btn-primary">ROLL</button>
+        <h2>TALLY</h2>
+        <div id="tally" class="tally">0</div>
+
+      </div>
+      <div class="col-md-4 well">
+        <h2>PLAYER 2</h2>
+        <!-- <div id = "hold2" class = "hold">0</div> -->
+        <button id="hold-button2" class="btn btn-danger">HOLD</button>
+        <h3>Score:</h3>
+        <div id="score2" class="scorebox">0</div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--<button type="submit" class="btn btn-primary" id="player1-hold">HOLD</button> Indicate current tally
+            <h2>SCORE:</h2>
+           </form> -->
+  <!-- <form id="form2"> -->
+  <!-- <h2>DIE ROLL</h2>
+              <div id = "die2" class = "dice">0</div>
+              <button onlcick="pigDice();" class="btn btn-primary">Roll</button>
+              <p id = "status2" "clear:left;"></p>
+              <button type="submit" class="btn btn-primary" id="player2-hold">HOLD</button>
+            <h2>SCORE:</h2> -->
+  <!-- </form> -->
+  </div>
+  </div>
+  <div id="winner" class="text-center">
+    <h2><span class ="blink">
+            PLAYER <span id="message"></span> WINS!
+          </h2></span>
+  </div>
+  </div>
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

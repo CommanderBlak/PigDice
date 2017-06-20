@@ -1,0 +1,67 @@
+.jumbotron {
+  background-image: url('../images/dice-background.jpg');
+  background-size: cover;
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 500px;
+  color: white;
+}
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+div.well {
+}
+h1.text-center {
+	font-family: 'Coiny', cursive;
+	font-size: 150px;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+}
+
+div.dice {
+	float:left;
+	width:32px;
+	background-color: white;
+	/*background:#1cc8e6;*/
+	border:#999 1px solid;
+  border-radius: 10%;
+	/*padding:10px;*/
+	font-size:24px;
+	text-align:center;
+	/*margin:5px;*/
+  /*box-shadow: 0px 0px 37px 9px rgba(179,45,179,0.88);*/
+}
+
+div.scorebox {
+  float:left;
+  width:32px;
+  border:#999 1px solid;
+  border-radius: 10%;
+  font-size:24px;
+  text-align:center;
+	background-color: #FFF;
+}
+
+div.hold {
+  float:right;
+  width:32px;
+  border:#999 1px solid;
+  border-radius: 10%;
+  font-size:24px;
+  text-align:center;
+}
+
+div.tally {
+	  width:32px;
+	  border:#999 1px solid;
+	  border-radius: 10%;
+	  font-size:24px;
+	  text-align:center;
+		background-color: white;
+}
